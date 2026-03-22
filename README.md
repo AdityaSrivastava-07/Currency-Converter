@@ -54,11 +54,16 @@ Currency API
   
 📂 Project Structure
   📁 currency-converter
-│── index.html
-│── style.css
-│── script.js
-│── codes.js (currency codes)
-│── README.md
+  
+  │── index.html
+  
+  │── style.css
+  
+  │── script.js
+  
+  │── codes.js (currency codes)
+  
+  │── README.md
   
 🧹 Best Practices Followed
   Clean and readable code
