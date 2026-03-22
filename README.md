@@ -53,6 +53,7 @@ Currency API
   JavaScript (ES6) → Logic & API handling
   
 📂 Project Structure
+
   📁 currency-converter
   
   │── index.html
