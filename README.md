@@ -11,11 +11,8 @@
   The goal of this project is to demonstrate:
   
     API integration using fetch
-    
     Dynamic UI updates using JavaScript
-    
     Use of Array Higher Order Functions (HOFs)
-    
     Responsive and interactive web design
     
 🌐 API Used
