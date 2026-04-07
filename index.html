@@ -16,8 +16,9 @@
     <!-- Dark Mode Toggle -->
     <div class="toggle">🌙</div>
 
-    <div class="container">
-        <h2>Currency Converter</h2>
+    <div class="app-wrapper">
+        <div class="container">
+            <h2>Currency Converter</h2>
 
         <form>
             <div class="amount">
@@ -53,6 +54,36 @@
 
             <button>Get Exchange Rate</button>
         </form>
+    </div>
+
+    <!-- Quick Rates Section -->
+    <div class="container rates-container">
+        <h3>Live Exchange Rates (<span id="base-currency-label">USD</span>)</h3>
+        
+        <div class="rates-controls">
+            <input type="text" id="search-rate" placeholder="Search currency...">
+            
+            <div class="control-group">
+                <select id="sort-rate">
+                    <option value="asc">Sort A - Z</option>
+                    <option value="desc">Sort Z - A</option>
+                    <option value="low">Rate: Low - High</option>
+                    <option value="high">Rate: High - Low</option>
+                </select>
+
+                <select id="filter-rate">
+                    <option value="all">Filter: All</option>
+                    <option value="gt1">Rate > 1</option>
+                    <option value="lt1">Rate < 1</option>
+                    <option value="fav">Favorites</option>
+                </select>
+            </div>
+        </div>
+
+        <ul id="rates-list">
+            <!-- Rates will be rendered here via JS -->
+        </ul>
+    </div>
     </div>
 
     <script src="codes.js"></script>
